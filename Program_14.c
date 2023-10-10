@@ -1,3 +1,8 @@
+// Problem Statement : Check whether the number given is odd or even
+
+// Conclusion : We will check the given number is odd or even using if-else and mathematical calculations
+
+// Algorithm : 
 /*
     START
         Accpet number by user
@@ -9,7 +14,18 @@
 
 #include <stdio.h>
 
-int EvenOdd(int iValue)
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : EvenOdd
+//  Description :   Takes a integer as parameter and checks whether it is odd or even
+//  Input :         Integer
+//  Output :        void
+//  Author :        Ajay Yogesh Varma
+//  Date :          2-10-2023
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+void EvenOdd(int iValue)
 {
     if(iValue%2 == 0)
     {
@@ -21,6 +37,12 @@ int EvenOdd(int iValue)
     }
     
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  This is entry point of the program
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main() 
 {

@@ -1,4 +1,30 @@
+// Problem Statement : Take 3 integers as input from user and find their average
+
+// Conclusion : We will take 3 integers as input and perform their average as (No1 + No2 + No3)/3
+
+// Algorithm
+/*
+    START
+        create 3 variables as no1, no2, no3
+        take 3 integer values as input from user and store it in those variables
+        create variable result to store result of average
+        perform (no1 + no2 + no3)/3 and store its value in result
+        return result
+    STOP
+*/
+
 #include <stdio.h>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Average
+//  Description :   Takes 3 integers as parameter and returns it average
+//  Input :         Integer, Integer, Integer
+//  Output :        Integer
+//  Author :        Ajay Yogesh Varma
+//  Date :          3-10-2023
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 float Average(int iNo1, int iNo2, int iNo3)
 {
@@ -7,6 +33,12 @@ float Average(int iNo1, int iNo2, int iNo3)
     fResult = (((float)iNo1 + (float)iNo2 + (float)iNo3) / 3);
     return fResult;
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  This is entry point of the program
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main()
 {

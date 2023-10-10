@@ -1,4 +1,33 @@
+// Problem Statement : Take stadard of student from user and then print its exam timing according to the standard
+
+// Conclusion : We will print exam timing using switch case
+
+// Algorithm :
+/*
+    START 
+        Create variable value 
+        take standard of student as input from user and store it in value
+        if standard is 1 then exam at 8Am
+        if standard is 2 then exam at 9Am
+        if standard is 3 then exam at 10Am
+        if standard is 4 then exam at 11Am
+        if standard is 5 then exam at 12Am
+        or print wrong standard
+    STOP
+*/
+
 #include <stdio.h>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : DisplauExamTime
+//  Description :   Take standard as input and display timing of exam according to standard
+//  Input :         Integer
+//  Output :        void
+//  Author :        Ajay Yogesh Varma
+//  Date :          3-10-2023
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void DisplayExamTime(int iStandarad)
 {
@@ -23,6 +52,12 @@ void DisplayExamTime(int iStandarad)
             printf("Wrong standard \n");
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  This is entry point of the program
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main()
 {

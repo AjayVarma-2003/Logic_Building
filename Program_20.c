@@ -1,4 +1,32 @@
+// Problem Statement : Take percentage as input from user and print his passing criteria on screen
+
+// Conclusion : We will use if-else condtion checking for this
+
+// Algorithm
+/*
+    START
+        create variable value and intialize it to 0
+        Take percentage as input from user and store it in value
+        if - value >= 0 and < 35 then failed
+        or - value >= 35 and < 50 then pass class
+        or - value >= 50 and < 59 then second class
+        or - value >= 59 and < 75 then first class
+        or - value >= 75 and <= 100 then distinction class
+    STOP
+*/
+
 #include <stdio.h>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : DisplayClass
+//  Description :   Takes integer as parameter and prints class based upon value
+//  Input :         Integer
+//  Output :        Void
+//  Author :        Ajay Yogesh Varma
+//  Date :          3-10-2023
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 void DisplayClass(float fMarks)
 {
@@ -27,6 +55,12 @@ void DisplayClass(float fMarks)
         printf("Invalid Marks");
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  This is entry point of the program
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 int main()
 {
