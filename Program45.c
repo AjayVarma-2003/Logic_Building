@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// This is build phase program check program45
-
 void DisplayFactors(int iNo)
 {
     int iCnt = 0;

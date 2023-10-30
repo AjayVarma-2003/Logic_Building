@@ -7,7 +7,7 @@ bool CheckPrime(int iNo)
 {
     auto int iCnt = 0;
 
-    if(iNo < 0)
+    if(iNo < 0)         //filter
     {
        return false;
     }
