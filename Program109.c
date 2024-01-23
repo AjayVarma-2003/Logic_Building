@@ -8,7 +8,7 @@ void Display(int iRow, int iCol)
     {   
         for(j = 1; j<= iCol; j++) 
         {
-            if((i == 1) || (j == 1) || (i == iRow) || (j == iCol))
+            if((i == 1) || (j == 1) || (i == iRow) || (j == iCol) )
             {
                 printf("*\t");
             }
